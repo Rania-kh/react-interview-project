@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import '../assets/styles/Navbar.css'
+import { Button } from './Button';
 
 function NavBar() {
 
@@ -30,6 +31,8 @@ function NavBar() {
                         </Link>
                     </li>
                 </ul>
+                <Button buttonStyle="btn--outline" >Register </Button>
+                <Button buttonStyle="btn--primary" >Login </Button>
             </div>
         </nav>
         </>
