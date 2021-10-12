@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/components/CardWithImage.css'
-import { Button } from './Button'
+import '../assets/components/Title.css'
 
 function Home({
     children,
@@ -15,7 +15,7 @@ function Home({
                     <p className="title">
                         {title}
                     </p>
-                    <p className="gray-text">
+                    <p className="gray-text card-subTitle">
                         {subTitle}
                     </p>
                     <div>

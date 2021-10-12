@@ -1,0 +1,14 @@
+.header{
+}
+.section-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0px 0px 0pc;
+  }
+
+  .header-subtitle{
+      width:600px;
+  }

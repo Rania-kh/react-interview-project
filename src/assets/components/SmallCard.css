@@ -1,0 +1,18 @@
+.small-card-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 80px 80px 80px;
+}
+
+.small-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+}
+
+.small-card-title{
+    width:270px;
+    margin-top: 15px;
+}

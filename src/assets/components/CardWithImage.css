@@ -20,18 +20,11 @@
     width:30%
   }
   
-  .title{
-    font-size: 36px;
-    font-weight: 700;
-  }
-  
+
   .card-left-container{
     margin-left: 150px;
   }
-  
-  .gray-text{
-    color: var(--light-text);
-    font-size: var(--primary-font);
-    margin: 20px 0px;
-    width: 80%;
+
+  .card-subTitle{
+    width:80%;
   }

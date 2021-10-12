@@ -5,12 +5,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'SF Pro Text', sans-serif;
 }
 
-.first-section {
+.row{
   display: flex;
-  align-items: center;
+  flex-direction: row;
+}
+
+.center{
   justify-content: center;
-  font-size: 14px;
+  align-items: center;
+  text-align: center;
 }
