@@ -12,6 +12,8 @@ import BG2 from '../assets/images/BG2.png';
 import CARD from '../assets/images/card.png'
 import CARD1 from '../assets/images/card1.png'
 import CARD2 from '../assets/images/card2.png'
+import ARROW from '../assets/icons/Icosn.png'
+import PLAY from '../assets/icons/Icon.png'
 
 function Home() {
     return (
@@ -27,7 +29,10 @@ function Home() {
                             Register
                         </Button>
                         <Button buttonStyle="btn--outline">
-                            Watch Video
+                        <div className="center row">
+                            <p>Watch Video </p>
+                            <img src={PLAY} alt="ds" className="icon"/> 
+                        </div>
                         </Button>
                 </CardWithImage>
             </div>
@@ -85,7 +90,10 @@ function Home() {
                     subTitle="Eget scelerisque diam vulputate vitae, vitae mauris feugiat mauris. Sed ipsum amet eleifend natoque nisl, enim mauris faucibus. Sed non dapibus consectetur facilisis sit dui."
                     >
                     <Button buttonStyle="btn--blue">
-                        Registration
+                        <div className="center row">
+                            <p>Registration</p>
+                            <img src={ARROW} alt="ds" className="icon"/> 
+                        </div>
                     </Button>
                 </CardWithImage>
             </div>

@@ -18,3 +18,10 @@
   align-items: center;
   text-align: center;
 }
+
+.icon{
+  width:15px;
+  height:15px;
+  padding: 0%;
+  margin-left: 8px;
+}
