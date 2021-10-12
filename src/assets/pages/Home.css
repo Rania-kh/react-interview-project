@@ -16,7 +16,6 @@
 .center{
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .icon{
@@ -24,4 +23,12 @@
   height:15px;
   padding: 0%;
   margin-left: 8px;
+}
+
+.m-top{
+  margin-top: 15px;
+}
+
+.m-right{
+  margin-right: 15px;
 }

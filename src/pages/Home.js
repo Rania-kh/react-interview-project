@@ -4,7 +4,8 @@ import '../assets/components/Title.css'
 import Mainbar from '../components/Mainbar';
 import CardWithImage from '../components/CardWithImage';
 import SectionHeader from '../components/SectionHeader';
-import SmallCards from '../components/SmallCards'
+import CardWithImageSmall from '../components/CardWithImageSmall'
+import CardWithIcon from '../components/CardWithIcon'
 import { Button } from '../components/Button';
 import BG from '../assets/images/BG.png';
 import BG1 from '../assets/images/BG1.png';
@@ -14,6 +15,9 @@ import CARD1 from '../assets/images/card1.png'
 import CARD2 from '../assets/images/card2.png'
 import ARROW from '../assets/icons/Icosn.png'
 import PLAY from '../assets/icons/Icon.png'
+import LAYER from '../assets/icons/layer.png'
+import RGB from '../assets/icons/rgb.png'
+import CMYK from '../assets/icons/cmyk.png'
 
 function Home() {
     return (
@@ -42,7 +46,7 @@ function Home() {
                     subTitle="Sem ut velit sit hendrerit amet, ultrices suspendisse. Consectetur eu, molestie ac in neque id. Ultrices adipiscing at porttitor et laoreet sed"
                 />
                 <div className="row center">
-                    <SmallCards 
+                    <CardWithImageSmall 
                         image={CARD1}
                         title="Et ac quam nunc condimentum vitae sed urna ac."
                         subTitle="Nec nulla id eget dolor adipiscing ipsum et, 
@@ -50,14 +54,14 @@ function Home() {
                         laoreet rutrum purus. In platea ut lorem tincidunt 
                         elit vulputate"
                         />
-                    <SmallCards 
+                    <CardWithImageSmall 
                         image={CARD}
                         title="Nisl amet urna, a dolor adipiscing."
                         subTitle="Morbi at sed quis libero morbi fames elit. Eleifend 
                         fermentum purus quis pharetra nibh turpis. 
                         Mattis sed est a risus a vitae cursus elit in."
                         />
-                    <SmallCards 
+                    <CardWithImageSmall 
                         image={CARD2}
                         title="In scelerisque sem nisl, varius mauris."
                         subTitle="Amet netus mauris fermentum volutpat nibh 
@@ -82,6 +86,32 @@ function Home() {
                     risus velit semper. Amet in morbi felis, nisl in habitasse et. Ante quisque egestas 
                     arcu morbi neque varius pretium sed velit."
                 />
+                <div className="row center">
+                    <CardWithIcon 
+                        image={LAYER}
+                        title="In scelerisque sem nisl, varius mauris."
+                        subTitle="Amet netus mauris fermentum volutpat nibh 
+                        ultrices id dictum viverra. Nunc ac mauris lorem 
+                        felis, montes, amet pellentesque mauris. Mi morbi 
+                        sit aliquet integer aliquam volutpat tortor ut."
+                        />
+                    <CardWithIcon 
+                        image={RGB}
+                        title="In scelerisque sem nisl, varius mauris."
+                        subTitle="Amet netus mauris fermentum volutpat nibh 
+                        ultrices id dictum viverra. Nunc ac mauris lorem 
+                        felis, montes, amet pellentesque mauris. Mi morbi 
+                        sit aliquet integer aliquam volutpat tortor ut."
+                        />
+                    <CardWithIcon 
+                        image={CMYK}
+                        title="In scelerisque sem nisl, varius mauris."
+                        subTitle="Amet netus mauris fermentum volutpat nibh 
+                        ultrices id dictum viverra. Nunc ac mauris lorem 
+                        felis, montes, amet pellentesque mauris. Mi morbi 
+                        sit aliquet integer aliquam volutpat tortor ut."
+                        />
+                </div>
             </div>
             <div>
                 <CardWithImage 

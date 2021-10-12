@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/components/SmallCard.css'
+import '../assets/components/CardWithImageSmall.css'
 function Home({
     children,
     image,
