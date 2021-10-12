@@ -1,4 +1,4 @@
-@import "../_variables.css";
+@import "../_colors.css";
 
 .mainbar {
     background-color: var(--blue);
