@@ -1,7 +1,4 @@
-:root{
-    --primary:#FFFFFF;
-    --blue:#13628C;
-}
+@import "../_variables.css";
 
 .btn{
     padding: 8px 20px;
@@ -11,10 +8,16 @@
     cursor: pointer;
     height:40px;
     width:153px;
-    margin-right: 12px;
 }
 
 .btn--primary{
+    background-color: var(--light-blue);
+    color: var(--blue);
+    padding: 8px 10px;
+    transition: all 0.3s ease-out;
+}
+
+.btn--blue{
     background-color: var(--blue);
     color: #fff;
     padding: 8px 20px;
@@ -25,20 +28,23 @@
     background-color: var(--primary);
     color: var(--blue);
     border: 1px solid var(--blue);
+    margin-right: 12px;
 }
 
 .btn--medium{
+    padding: 5px 0px;
+    font-size: 14px;
+    height:35px;
+    width: 80px;
+}
+
+.btn--large{
     padding: 8px 20px;
     font-size: 14px;
 }
 
-.btn--large{
-    padding: 12px 26px;
-    font-size: 14px;
-}
-
 .btn--primary:hover {
-    background-color: #31adf0;
+    background-color: var(--light-blue);
     color: var(--primary);
     transition: all 0.3s ease-out;
 }

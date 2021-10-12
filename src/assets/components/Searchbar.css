@@ -1,0 +1,29 @@
+@import "../_variables.css";
+
+.search-form{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    border:1px solid var(--primary);
+    background-color: var(--primary);
+    padding:2px;
+    margin:0px 30px;
+}
+
+.search-input{
+    border:var(--primary);
+    width:700px;
+    height:40px;
+    padding: 0% 6%;
+    margin: 0% 1%;
+    background-image: url(https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 12px;
+    background-size: 16px;
+}
+.search-input:focus{
+    border:var(--primary);
+}

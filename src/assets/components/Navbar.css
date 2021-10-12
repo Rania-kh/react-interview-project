@@ -1,5 +1,7 @@
+@import '../_variables.css';
+
 .navbar {
-    height: 90px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +35,7 @@
   }
   
   .nav-links {
-    color: #8B8D98;
+    color: var(--light-text);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -41,8 +43,9 @@
     height: 80%;
   }
   
+
   .nav-links:hover {
-    border-bottom: 3px solid #13628C;
+    border-bottom: 3px solid var(--blue);
     transition: all 0.2s ease-out;
   }
 
