@@ -58,13 +58,13 @@ text-align: center;
 
 
 .img-above{
-  margin-left: 50px;
+  margin-left: 120px;
   margin-top: -70px;
   margin-bottom: -70px;
 }
 
 .blue-background{
-  height:400px;
+  height:450px;
   margin:150px 0px 150px 0px;
   background-color: var(--blue);
 }
