@@ -8,18 +8,23 @@ import SectionHeader from '../components/SectionHeader';
 import CardWithImageSmall from '../components/CardWithImageSmall'
 import CardWithIcon from '../components/CardWithIcon'
 import { Button } from '../components/Button';
-import BG from '../assets/images/BG.png';
-import BG1 from '../assets/images/BG1.png';
-import BG2 from '../assets/images/BG2.png';
-import CARD from '../assets/images/card.png'
-import CARD1 from '../assets/images/card1.png'
-import CARD2 from '../assets/images/card2.png'
-import ARROW from '../assets/icons/Icosn.png'
-import PLAY from '../assets/icons/Icon.png'
-import LAYER from '../assets/icons/layer.png'
-import RGB from '../assets/icons/rgb.png'
-import CMYK from '../assets/icons/cmyk.png'
-import PIC from '../assets/images/Pic.png'
+import {
+    // images
+    BG,
+    BG1,
+    BG2,
+    CARD,
+    PIC,
+    CARD1,
+    CARD2,
+    // icons
+    ARROW,
+    LAYER,
+    RGB,
+    CMYK,
+    PLAY
+} from '../assets';
+
 function Home() {
     return (
         <div>
@@ -118,6 +123,7 @@ function Home() {
                         />
                 </div>
             </div>
+            {/* image with blue background */}
             <div className="blue-background row">
                 <img src={PIC} alt="ds" className="img-above"/>
                 <div className="align-end">
@@ -148,6 +154,7 @@ function Home() {
                 </CardWithImage>
             </div>
             <div>
+                {/* footer */}
                 <Footer/>
             </div>
         </div>
