@@ -46,6 +46,13 @@
     margin-right: 2px;
 }
 
+.btn--small{
+    padding: 5px 0px;
+    font-size: 14px;
+    height:40px;
+    width: 130px;
+    margin-right: 2px;
+}
 .btn--large{
     padding: 8px 20px;
     font-size: 14px;

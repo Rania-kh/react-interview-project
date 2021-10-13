@@ -11,7 +11,7 @@ function Mainbar() {
                     placeholder="Search goods or any else information"
                     className="search-input"
                     aria-label="Search through site content"/>
-                <Button buttonStyle="btn--primary" buttonSize="btn--medium"> 
+                <Button buttonStyle="btn--primary" buttonSize="btn--small"> 
                    search
                 </Button>
             </form>
