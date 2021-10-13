@@ -2,6 +2,7 @@ import React from 'react'
 import '../assets/pages/Home.css'
 import '../assets/components/Title.css'
 import Mainbar from '../components/Mainbar';
+import Footer from '../components/Footer';
 import CardWithImage from '../components/CardWithImage';
 import SectionHeader from '../components/SectionHeader';
 import CardWithImageSmall from '../components/CardWithImageSmall'
@@ -18,12 +19,14 @@ import PLAY from '../assets/icons/Icon.png'
 import LAYER from '../assets/icons/layer.png'
 import RGB from '../assets/icons/rgb.png'
 import CMYK from '../assets/icons/cmyk.png'
-
+import PIC from '../assets/images/Pic.png'
 function Home() {
     return (
         <div>
+            {/* search bar with logo */}
             <Mainbar/>
             <div>
+                {/* fist section */}
                 <CardWithImage 
                     image={BG} 
                     title="Phasellus scelerisque ultricies mauris faucibus tempus."
@@ -40,6 +43,7 @@ function Home() {
                         </Button>
                 </CardWithImage>
             </div>
+            {/* How it works section */}
             <div>
                 <SectionHeader 
                     title="How it Works"
@@ -71,6 +75,7 @@ function Home() {
                         />
                     </div>
             </div>
+            {/* third section */}
             <div>
                 <CardWithImage 
                     image={BG1}
@@ -113,6 +118,9 @@ function Home() {
                         />
                 </div>
             </div>
+            <div className="blue-background">
+                <img src={PIC} alt="ds" className="img-above"/>
+            </div>
             <div>
                 <CardWithImage 
                     image={BG2}
@@ -126,6 +134,9 @@ function Home() {
                         </div>
                     </Button>
                 </CardWithImage>
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
     )

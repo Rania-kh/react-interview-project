@@ -18,6 +18,9 @@
   align-items: center;
 }
 
+.text-center{
+  align-items: center;
+}
 .icon{
   width:15px;
   height:15px;
@@ -26,9 +29,40 @@
 }
 
 .m-top{
-  margin-top: 15px;
+  margin-top: 50px;
 }
 
+.mt-0{
+  margin-top: -10px;
+}
+
+.mt-1{
+  margin-top: 10px;
+}
 .m-right{
-  margin-right: 15px;
+  margin-right: 20px;
+}
+
+
+.img-above{
+  margin-left: 50px;
+  margin-top: -70px;
+}
+
+.blue-background{
+  height:400px;
+  margin:150px 0px 150px 0px;
+  background-color: var(--blue);
+}
+
+.w1{
+  width: 300px;
+}
+
+.w2{
+  width: 400px;
+}
+
+.h1{
+  height: 200px;
 }
