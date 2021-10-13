@@ -14,13 +14,26 @@
 }
 
 .center{
+  display: flex;
   justify-content: center;
+}
+
+.center-items{
   align-items: center;
 }
 
-.text-center{
-  align-items: center;
+
+.center-text{
+text-align: center;
 }
+
+.text-container {
+  height:400px;
+  width: 530px;
+  margin:80px 40px 40px 80px;
+}
+
+
 .icon{
   width:15px;
   height:15px;
@@ -47,6 +60,7 @@
 .img-above{
   margin-left: 50px;
   margin-top: -70px;
+  margin-bottom: -70px;
 }
 
 .blue-background{

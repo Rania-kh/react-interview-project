@@ -7,7 +7,7 @@ function Home({
     subTitle
 }) {
     return (
-        <div className="small-card-container">
+        <div className="small-card-container text-center">
         <div>
             <img src={image} alt="small card"/>
         </div>

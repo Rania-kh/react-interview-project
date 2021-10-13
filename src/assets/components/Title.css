@@ -4,7 +4,9 @@
     margin: 0px 0px;
   }
 
-  
+.white-text{
+  color: var(--primary);
+}
   .gray-text{
     color: var(--light-text);
     font-size: var(--primary-font);

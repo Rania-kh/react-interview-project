@@ -37,13 +37,13 @@ function Footer() {
                 <p className="small-title">
                     Our contacts
                 </p>
-                <div className="row text-center mt-1">
+                <div className="row center-items mt-1">
                     <img src={PHONE} alt="small card" className="m-right footer-icon"/>
                     <p className="gray-text">
                         +4 (509) 120 6705
                     </p>
                 </div>
-                <div className="row text-center mt-0">
+                <div className="row center-items mt-0">
                     <img src={MAP} alt="small card" className="m-right footer-icon"/>
                     <p className="gray-text">
                         1418 Riverwood Drive, Suite 3245 Cottonwood, CA 96052, US

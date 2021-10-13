@@ -118,8 +118,20 @@ function Home() {
                         />
                 </div>
             </div>
-            <div className="blue-background">
+            <div className="blue-background row">
                 <img src={PIC} alt="ds" className="img-above"/>
+                <div className="align-end">
+                    <div className="text-container"> 
+                        <p className="title white-text">Hac id pellentesque fermentum lobortis.</p>
+                        <p className="gray-text">Nam leo libero pellentesque fringilla etiam diam, quis augue. Urna a sed nunc blandit luctus sit consequat. Nascetur lobortis malesuada cursus porttitor velit adipiscing vulputate commodo. Vulputate et hendrerit at posuere nunc, bibendum mauris suspendisse vitae.</p>
+                        <Button buttonStyle="btn--orange" buttonSize="btn--medium">
+                            <div className="center row">
+                                <p>Become a Seller</p>
+                                <img src={ARROW} alt="ds" className="icon"/> 
+                            </div>
+                        </Button>
+                    </div>
+                </div>
             </div>
             <div>
                 <CardWithImage 
