@@ -1,6 +1,5 @@
-# eProcurement Company React project
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# eProcurement Website home UI **React project**
+Simple UI using React
 
 ## Available Scripts
 
